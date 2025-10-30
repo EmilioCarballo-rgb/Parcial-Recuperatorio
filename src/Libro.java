@@ -6,7 +6,8 @@ public class Libro extends Publicacion {
     }
 
 
-    public Libro(String autor){
+    public Libro(String titulo,int añoPublicacion,String autor){
+        super(titulo, añoPublicacion);
         this.autor = autor;
     }
 
