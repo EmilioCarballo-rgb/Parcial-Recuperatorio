@@ -5,7 +5,8 @@ public class Revista extends Libro{
 
     }
 
-    public Revista(int numeroEdicion) {
+    public Revista(String titulo,int añoPublicacion,int numeroEdicion) {
+        super(titulo, añoPublicacion);
         this.numeroEdicion = numeroEdicion;
     }
 
