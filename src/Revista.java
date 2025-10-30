@@ -1,4 +1,4 @@
-public class Revista extends Libro{
+public class Revista extends Publicacion{
     private int numeroEdicion;
 
     public Revista(){
